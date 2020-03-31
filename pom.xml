@@ -10,8 +10,13 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>order-pay-service</module>
         <module>cloud-api</module>
+        <module>cloud-eureka7001</module>
+        <module>cloud-eureka7002</module>
+        <module>cloud-comsumer-payment80</module>
+        <module>cloud-web-util</module>
+        <module>cloud-service-util</module>
+        <module>cloud-provider-payment</module>
     </modules>
 
     <properties>
