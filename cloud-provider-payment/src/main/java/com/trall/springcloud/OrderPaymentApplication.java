@@ -10,7 +10,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  */
 
 @SpringBootApplication
-@MapperScan("com.trall.springcloud.mapper")
+@MapperScan(basePackages = "com.trall.springcloud.mapper")
 @EnableEurekaClient
 public class OrderPaymentApplication {
 

@@ -4,10 +4,7 @@ import com.trall.springCloud.entities.CommonResult;
 import com.trall.springCloud.entities.Payment;
 import com.trall.springCloud.service.OrderPaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by 陈兵 on 2020/3/29.
@@ -18,8 +15,8 @@ public class PaymentContrller {
     @Autowired
     OrderPaymentService orderPaymentService;
 
-    @PostMapping("/payment")
-    public CommonResult addPayment(Payment payment){
+    @PostMapping("payment")
+    public CommonResult addPayment(@RequestBody Payment payment){
         int insert = orderPaymentService.insert(payment);
         CommonResult result = new CommonResult();
         if(insert>0){
@@ -33,7 +30,7 @@ public class PaymentContrller {
         return result;
     }
 
-    @GetMapping("/payment/{id}")
+    @GetMapping("payment/{id}")
     public CommonResult queryPayment(@PathVariable("id")long id){
         Payment payment = orderPaymentService.select(id);
         CommonResult result = new CommonResult();
