@@ -12,7 +12,9 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class PaymentController {
 
-    private static final String REQEEST_PATH="http://localhost:8001";
+    //private static final String REQEEST_PATH="http://localhost:8001";
+
+    private static final String REQEEST_PATH="http://order-payment-service";
 
     @Autowired
     RestTemplate restTemplate;

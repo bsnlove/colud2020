@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by 陈兵 on 2020/3/29.
+ * Created by 陈兵 on 2020/4/12.
  */
 @Configuration
 public class MyConfig {
@@ -14,6 +14,7 @@ public class MyConfig {
     @Bean
     @LoadBalanced
     public RestTemplate getTemplate(){
+
         return new RestTemplate();
     }
 }

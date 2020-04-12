@@ -17,6 +17,10 @@
         <module>cloud-web-util</module>
         <module>cloud-service-util</module>
         <module>cloud-provider-payment</module>
+        <module>cloud-provider-payment8002</module>
+        <module>cloud-provider-payment8003</module>
+        <module>cloud-provider-payment8004</module>
+        <module>cloud-consul-comsumer</module>
     </modules>
 
     <properties>
