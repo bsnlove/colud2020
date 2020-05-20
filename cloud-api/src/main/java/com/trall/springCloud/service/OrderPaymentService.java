@@ -9,5 +9,5 @@ public interface OrderPaymentService {
 
     public int insert(Payment payment);
 
-    public Payment select(long id);
+    public Payment select(Integer id);
 }

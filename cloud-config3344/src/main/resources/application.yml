@@ -1,0 +1,29 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:bsnlove/cloud-config.git
+          search-paths:  ###搜索目录
+            - config-master
+      label: master
+  rabbitmq:
+    addresses: 127.0.0.1
+    username: guest
+    password: guest
+    port: 5672
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+management:
+  endpoint:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

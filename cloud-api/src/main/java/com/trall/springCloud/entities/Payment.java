@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
@@ -14,7 +16,9 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class Payment implements Serializable{
 
-    private long id;
+    @Id
+    private Integer id;
 
+    @Column
     private String serial;
 }
