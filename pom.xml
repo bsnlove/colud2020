@@ -28,6 +28,9 @@
         <module>cloud-gateway9527</module>
         <module>cloud-config3344</module>
         <module>cloud-config3355</module>
+        <module>cloud-provider-rabbitmq-provider8801</module>
+        <module>cloud-stream-rabbitmq-consumer8802</module>
+        <module>cloud-stream-rabbitmq-consumer8803</module>
     </modules>
 
     <properties>
@@ -119,6 +122,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.0.1.RELEASE</version>
                 <configuration>
                     <fork>true</fork>
                     <addResources>true</addResources>
