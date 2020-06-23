@@ -1,0 +1,4 @@
+com\trall\springcloud\ConsumerHystrixApplication.class
+com\trall\springcloud\controller\PaymentController.class
+com\trall\springcloud\service\FeignFallBackService.class
+com\trall\springcloud\service\FeignService.class

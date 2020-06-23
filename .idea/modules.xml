@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-api/cloud-api.iml" filepath="$PROJECT_DIR$/cloud-api/cloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-comsumer-payment80/cloud-comsumer-payment80.iml" filepath="$PROJECT_DIR$/cloud-comsumer-payment80/cloud-comsumer-payment80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config3344/cloud-config3344.iml" filepath="$PROJECT_DIR$/cloud-config3344/cloud-config3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config3355/cloud-config3355.iml" filepath="$PROJECT_DIR$/cloud-config3355/cloud-config3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consul-comsumer/cloud-consul-comsumer.iml" filepath="$PROJECT_DIR$/cloud-consul-comsumer/cloud-consul-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka7001/cloud-eureka7001.iml" filepath="$PROJECT_DIR$/cloud-eureka7001/cloud-eureka7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka7002/cloud-eureka7002.iml" filepath="$PROJECT_DIR$/cloud-eureka7002/cloud-eureka7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway9002/cloud-gateway9002.iml" filepath="$PROJECT_DIR$/cloud-gateway9002/cloud-gateway9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway9527/cloud-gateway9527.iml" filepath="$PROJECT_DIR$/cloud-gateway9527/cloud-gateway9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-consumer/cloud-hystrix-consumer.iml" filepath="$PROJECT_DIR$/cloud-hystrix-consumer/cloud-hystrix-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-dashboard9001/cloud-hystrix-dashboard9001.iml" filepath="$PROJECT_DIR$/cloud-hystrix-dashboard9001/cloud-hystrix-dashboard9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-payment/cloud-hystrix-payment.iml" filepath="$PROJECT_DIR$/cloud-hystrix-payment/cloud-hystrix-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-openFeign-comsumer/cloud-openFeign-comsumer.iml" filepath="$PROJECT_DIR$/cloud-openFeign-comsumer/cloud-openFeign-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment/cloud-provider-payment.iml" filepath="$PROJECT_DIR$/cloud-provider-payment/cloud-provider-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8003/cloud-provider-payment8003.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8003/cloud-provider-payment8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8004/cloud-provider-payment8004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-rabbitmq-provider8801/cloud-provider-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-provider-rabbitmq-provider8801/cloud-provider-rabbitmq-provider8801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-util/cloud-service-util.iml" filepath="$PROJECT_DIR$/cloud-service-util/cloud-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-web-util/cloud-web-util.iml" filepath="$PROJECT_DIR$/cloud-web-util/cloud-web-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
+    </modules>
+  </component>
+</project>

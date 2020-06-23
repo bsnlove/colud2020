@@ -3,7 +3,6 @@ package com.trall.springcloud.controller;
 import com.trall.springCloud.entities.CommonResult;
 import com.trall.springCloud.entities.Payment;
 import com.trall.springcloud.lb.LoadBalance;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
@@ -23,7 +22,7 @@ public class PaymentController {
 
     private static final String REQEEST_PATH="http://order-payment-service";
 
-    @Autowired
+    @Resource
     RestTemplate restTemplate;
 
     @Resource
@@ -51,5 +50,11 @@ public class PaymentController {
             return restTemplate.getForObject(uri+"/payment/lb",String.class);
         }
         return null;
+    }
+
+    @RequestMapping(value="consumer/payment/result/{id}")
+    public String getTimeOut(@PathVariable("id") Integer time){
+
+        return restTemplate.getForObject(REQEEST_PATH+"/payment/result/"+time,String.class);
     }
 }

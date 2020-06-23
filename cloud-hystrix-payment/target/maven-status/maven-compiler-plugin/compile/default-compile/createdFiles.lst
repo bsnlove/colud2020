@@ -1,0 +1,3 @@
+com\trall\springcloud\controller\PaymentController.class
+com\trall\springcloud\HystrixApplication.class
+com\trall\springcloud\controller\service\PaymentService.class

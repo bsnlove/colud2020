@@ -1,0 +1,4 @@
+com\trall\springCloud\service\OrderPaymentService.class
+com\trall\springCloud\entities\Status.class
+com\trall\springCloud\entities\CommonResult.class
+com\trall\springCloud\entities\Payment.class

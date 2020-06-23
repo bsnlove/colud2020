@@ -1,0 +1,6 @@
+com\trall\springcloud\config\MyConfig.class
+com\trall\springcloud\ConsumerApplication.class
+com\trall\springcloud\lb\LoadBalanceImpl.class
+com\trall\springcloud\controller\PaymentController.class
+com\trall\springcloud\lb\LoadBalance.class
+com\trall\config\LBConfig.class

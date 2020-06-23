@@ -1,0 +1,4 @@
+com\trall\springcloud\controller\PaymentContrller.class
+com\trall\springcloud\mapper\PaymentMapper.class
+com\trall\springcloud\OrderPaymentApplication.class
+com\trall\springcloud\serviceImpl\PaymentServiceImpl.class

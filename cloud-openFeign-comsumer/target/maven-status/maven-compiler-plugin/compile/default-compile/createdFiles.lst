@@ -1,0 +1,3 @@
+com\trall\springcloud\controller\FeignController.class
+com\trall\springcloud\service\FeignService.class
+com\trall\springcloud\FeignApplication.class

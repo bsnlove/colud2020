@@ -31,6 +31,7 @@
         <module>cloud-provider-rabbitmq-provider8801</module>
         <module>cloud-stream-rabbitmq-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8803</module>
+        <module>cloud-nacos-provider9901</module>
     </modules>
 
     <properties>
