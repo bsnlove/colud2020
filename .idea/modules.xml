@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-consumer/cloud-hystrix-consumer.iml" filepath="$PROJECT_DIR$/cloud-hystrix-consumer/cloud-hystrix-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-dashboard9001/cloud-hystrix-dashboard9001.iml" filepath="$PROJECT_DIR$/cloud-hystrix-dashboard9001/cloud-hystrix-dashboard9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-hystrix-payment/cloud-hystrix-payment.iml" filepath="$PROJECT_DIR$/cloud-hystrix-payment/cloud-hystrix-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-nacos-provider9901/cloud-nacos-provider9001.iml" filepath="$PROJECT_DIR$/cloud-nacos-provider9901/cloud-nacos-provider9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-openFeign-comsumer/cloud-openFeign-comsumer.iml" filepath="$PROJECT_DIR$/cloud-openFeign-comsumer/cloud-openFeign-comsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment/cloud-provider-payment.iml" filepath="$PROJECT_DIR$/cloud-provider-payment/cloud-provider-payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />

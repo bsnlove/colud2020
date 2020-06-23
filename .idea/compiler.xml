@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-web-util" />
+        <module name="cloud-config3355" />
         <module name="cloud-service-util" />
-        <module name="cloud-eureka7002" />
+        <module name="cloud-nacos-provider9901" />
+        <module name="cloud-provider-rabbitmq-provider8801" />
         <module name="cloud-hystrix-dashboard9001" />
+        <module name="cloud-hystrix-consumer" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-provider-payment8003" />
         <module name="cloud-provider-payment8002" />
@@ -23,12 +25,11 @@
         <module name="cloud-comsumer-payment80" />
         <module name="cloud-consul-comsumer" />
         <module name="cloud-config3344" />
-        <module name="cloud-provider-rabbitmq-provider8801" />
+        <module name="cloud-web-util" />
         <module name="cloud-openFeign-comsumer" />
         <module name="cloud-provider-payment" />
-        <module name="cloud-config3355" />
         <module name="cloud-api" />
-        <module name="cloud-hystrix-consumer" />
+        <module name="cloud-eureka7002" />
         <module name="cloud-eureka7001" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
       </profile>
@@ -45,6 +46,7 @@
       <module name="cloud-hystrix-consumer" target="1.8" />
       <module name="cloud-hystrix-dashboard9001" target="1.8" />
       <module name="cloud-hystrix-payment" target="1.8" />
+      <module name="cloud-nacos-provider9901" target="1.8" />
       <module name="cloud-openFeign-comsumer" target="1.8" />
       <module name="cloud-provider-payment" target="1.8" />
       <module name="cloud-provider-payment8002" target="1.8" />
